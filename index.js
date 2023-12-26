@@ -33,12 +33,8 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    // origin:'https://roshan0010.github.io',
-<<<<<<< HEAD
-     origin:'https://resort-booking-client.onrender.com'
-=======
-     origin:'http://127.0.0.1:3000'
->>>>>>> 0bfcddd78a8b7de52489d76031ee4a56214a8fe4
+    origin:'https://resort-booking-client.vercel.app',
+     // origin:'http://127.0.0.1:3000'
   })
 );
 app.set("trust proxy", 1);
